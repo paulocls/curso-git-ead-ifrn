@@ -1,0 +1,18 @@
+mkdir curso-git-ead-ifrn
+cd curso-git-ead-ifrn
+git init --initial-branch=main
+
+git config user.name "Paulo César"
+git config user.email "paulocls@gmail.com
+
+git status
+
+git add <nome-do-arquivo> ou git add .
+
+git commit -m "<comentário>"
+
+git log ou git log --oneline
+
+git remote add origin <page>
+
+git push -u origin main
