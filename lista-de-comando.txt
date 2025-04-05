@@ -1,18 +1,28 @@
+-Repositório Local
 mkdir curso-git-ead-ifrn
 cd curso-git-ead-ifrn
+
+-Inicialização git
 git init --initial-branch=main
 
+-Cadastro do usuário
 git config user.name "Paulo César"
 git config user.email "paulocls@gmail.com
 
+-Verificar o status
 git status
 
+-Adicionar o arquivo
 git add <nome-do-arquivo> ou git add .
 
+-Fazer o commit
 git commit -m "<comentário>"
 
+-Verificar histório
 git log ou git log --oneline
 
-git remote add origin <page>
+-Informar o repositório remoto
+git remote add origin https://github.com/paulocls/curso-git-ead-ifrn.git
 
+-Enviar o arquivo para o repositório local
 git push -u origin main
