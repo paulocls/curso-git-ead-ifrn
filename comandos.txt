@@ -19,4 +19,7 @@ git swicth <nome-da-branch>
 6. Fazer o merge entre a branches
 git merge <nome-da-branch>
 
+7. Subir os arquivos no repositório
+git remote add origin <link do repositório>
+git push -u origin add-comandos
 
