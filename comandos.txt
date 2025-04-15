@@ -1,0 +1,22 @@
+Nome: Paulo César Lima da Silva
+
+Comandos:
+1. Clonar um repositório 
+"git clone <nome-repositório>
+
+2. Verificar a branch
+"git branch"
+
+3. Fazer o commit e adicionar ao mesmo tempo
+git commit -am "comentário"
+
+4. Criar uma branch 
+git checkout -b <nome-da-branch>
+
+5. Retornar a branch
+git swicth <nome-da-branch>
+
+6. Fazer o merge entre a branches
+git merge <nome-da-branch>
+
+
